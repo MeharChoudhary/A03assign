@@ -1,13 +1,21 @@
 {
     "name": "a03",
     "version": "0.0.1",
-    "description": "resume app",
+    "description": "Resume app",
     "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
     "dependencies": {
+        "body-parser": "latest",
+        "cool-ascii-faces": "^1.3.4",
+        "ejs": "latest",
         "express": "latest",
         "morgan": "latest",
-        "body-parser": "latest",
-        "ejs": "latest"
+        "nconf": "latest",
+        "nodemailer": "latest",
+        "mailgun-js": "latest",
+        "nodemailer-mailgun-transport": "latest"
     },
     "author": "Mehar Choudhary Meenavilli",
     "homepage": "https://bitbucket.org/professorcase/a03",
