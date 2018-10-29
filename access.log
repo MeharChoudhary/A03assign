@@ -44,3 +44,4 @@
 ::1 - - [29/Oct/2018:00:03:33 +0000] "GET /gpa_calc HTTP/1.1" 304 - "http://localhost:8081/gpa_calc" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36"
 ::1 - - [29/Oct/2018:00:27:07 +0000] "GET / HTTP/1.1" 200 2441 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36"
 ::1 - - [29/Oct/2018:00:27:09 +0000] "GET /gpa_calc HTTP/1.1" 200 4475 "http://localhost:8081/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36"
+::ffff:127.0.0.1 - - [29/Oct/2018:01:01:45 +0000] "GET / HTTP/1.1" 200 2441 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36"

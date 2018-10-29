@@ -64,10 +64,10 @@ app.get("/gpa_calc", function (req, res) {
 
 // 6 respond with 404 if a bad URI is requested
 app.get(function (req, res) {
- res.render("404")
+  res.render("404")
 })
 
-// Listen for an application request on designated port
+// Listen for an application request on port 8081
 app.listen(process.env.PORT || port, function () {
   console.log('Guestbook app listening on http://127.0.0.1:8081/')
 })
